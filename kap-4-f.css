@@ -1,0 +1,57 @@
+html {
+	background-color: lightslategrey;
+  font-family: sans-serif;
+
+}
+body {
+	background-color: azure;
+  margin: auto;
+  max-width: 500px;
+  padding-bottom: 0.1px; /*knep för div margin */
+}
+h1 {
+	color: purple;
+	text-align: center;
+}
+
+.two {
+	font-size: larger;
+}
+
+.two + p {
+	font-size: smaller;
+}
+
+.two + p + p {
+	font-weight: bolder;
+}
+
+#billy {
+	border: 1px solid purple;
+	border-radius: 5px;
+}
+
+#billy p {
+	color: darkred;
+}
+
+#bob {
+	border: 1px solid purple;
+	border-radius: 5px;
+}
+
+#bob p {
+	color: darkgreen;
+}
+
+#bob > .two + p + p {
+	margin: justify;
+}
+
+#bob a {
+	text-decoration: line-through;
+}
+
+#bob > .three + p > a {
+	text-decoration: underline overline;
+}
